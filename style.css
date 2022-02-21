@@ -393,6 +393,12 @@ nav.nav > .nav__hamburger > button > i {
   height: 70vh;
 }
 
+/* to show first tab on page load */
+.default-active {
+  /* display: flex; */
+  z-index: 1;
+}
+
 .tab-content {
   background-color: var(--acct-blue);
   display: flex;
@@ -418,10 +424,7 @@ nav.nav > .nav__hamburger > button > i {
   margin-top: 1em;
 }
 
-/* to show first tab on page load */
-.default-active {
-  display: flex;
-}
+
 
 @media (min-width: 1000px) {
   .tab-content, .rewards__gallery--buttons {
