@@ -19,8 +19,11 @@
   box-sizing: border-box;
 }
 
-html {
+html, body {
   overflow-x: hidden;
+}
+body {
+  position: relative
 }
 
 /* presets */
@@ -416,7 +419,7 @@ nav.nav > .nav__hamburger > button > i {
   left: 0;
   width: 100%;
   height: 100%;
-  display: none;
+  /* display: none; */
 }
 
 .tab-content > figcaption > p {
@@ -424,7 +427,11 @@ nav.nav > .nav__hamburger > button > i {
   margin-top: 1em;
 }
 
-
+@media (max-width: 600px) {
+  .tab-content > img {
+    max-width: 450px;
+  }
+}
 
 @media (min-width: 1000px) {
   .tab-content, .rewards__gallery--buttons {
