@@ -167,7 +167,6 @@ nav.nav > .nav__hamburger > button > i {
   right: 0;
   width: 75%;
   height: calc(100vh - 4.15em);
-  height: calc(var(--vh, 1vh) * 100 - 4em);
   background-color: #fff;
   border-top: 3px solid var(--alt-light);
   padding: clamp(1em, 1em + 1vw, 2em);
