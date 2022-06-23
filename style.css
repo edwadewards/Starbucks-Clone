@@ -188,7 +188,7 @@ nav.nav > .nav__hamburger > button > i {
 
 .nav__menu--mobile > hr {
   border-top: 1px solid var(--alt-light);
-  margin: 2em 0;
+  margin-block: clamp(.75em, .75em + 1vw, 2em);
   width: 100%;
 }
 
