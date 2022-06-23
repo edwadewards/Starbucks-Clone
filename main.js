@@ -26,3 +26,7 @@ hamburger.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
   menu.style.transform = 'translateX(100%)';
 })
+
+
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
