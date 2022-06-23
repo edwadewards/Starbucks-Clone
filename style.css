@@ -169,7 +169,7 @@ nav.nav > .nav__hamburger > button > i {
   height: calc(100vh - 4.15em);
   background-color: #fff;
   border-top: 3px solid var(--alt-light);
-  padding: 2em;
+  padding: clamp(1em, 1em + 1vw, 2em);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
