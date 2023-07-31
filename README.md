@@ -17,4 +17,4 @@ The idea to this came from [Frontend Practice](https://www.frontendpractice.com/
 
 Using the skills I've learned to recreate something by such a reputable brand was very exciting for me. Completeing this project made me feel that I am on the right track and can make it as a developer.
 
-![](https://github.com/edwadewards/Starbucks-Clone/blob/main/starbucks-preview.png)
+![](https://github.com/edwadewards/Starbucks-Clone/blob/main/starbucks_preview.png)
